@@ -15,7 +15,7 @@
         android:background="@drawable/selection"
         android:gravity="center"
         android:layout_marginBottom="30dp"
-        android:text="1. 선택지" />
+        android:text="연애할 때 나는 어떨까?" />
     <TextView
         android:id="@+id/option_2"
         android:layout_width="410dp"
@@ -23,7 +23,7 @@
         android:background="@drawable/selection"
         android:layout_marginBottom="30dp"
         android:gravity="center"
-        android:text="2. 선택지" />
+        android:text="연애할 때 나는 어떤 사람일까?" />
     <TextView
         android:id="@+id/option_3"
         android:layout_width="410dp"
@@ -31,7 +31,7 @@
         android:layout_marginBottom="30dp"
         android:background="@drawable/selection"
         android:gravity="center"
-        android:text="3. 선택지" />
+        android:text="나는 사랑을 어떻게 생각할까?" />
 
     <TextView
         android:id="@+id/option_4"
@@ -40,7 +40,7 @@
         android:layout_marginBottom="30dp"
         android:background="@drawable/selection"
         android:gravity="center"
-        android:text="4. 선택지" />
+        android:text="나의 스트레스 지수는 어떨까?" />
     <TextView
         android:id="@+id/option_5"
         android:layout_width="410dp"
@@ -48,7 +48,7 @@
         android:layout_marginBottom="30dp"
         android:background="@drawable/selection"
         android:gravity="center"
-        android:text="5. 선택지" />
+        android:text="나의 진짜 성격은?" />
     <ImageButton
         android:id="@+id/btn_home"
         android:layout_width="400dp"

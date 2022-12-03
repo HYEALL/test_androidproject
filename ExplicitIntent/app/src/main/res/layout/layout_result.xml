@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backgroundh"
+    android:background="@drawable/backgroundr"
     android:gravity="bottom"
     android:orientation="vertical">
 
@@ -13,13 +13,14 @@
         android:id="@+id/tv_main"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="72dp"
-        android:layout_marginLeft="72dp"
-        android:layout_marginTop="104dp"
-        android:fontFamily="sans-serif-black"
-        android:text="You are a quitter!"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="132dp"
+        android:gravity="center_horizontal"
+        android:text="이건 어떠어떠한 테스트였습니다.\n메인 설명"
         android:textColor="@color/white"
-        android:textSize="32dp"
+        android:textSize="21dp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -31,12 +32,14 @@
         android:layout_marginLeft="75dp"
         android:layout_marginEnd="75dp"
         android:layout_marginRight="75dp"
-        android:fontFamily="sans-serif-light"
-        android:text="May be you give up on love too easily.."
+        android:gravity="center_horizontal"
+        android:text="테스트의 대한 상세 설명, 서브 설명이 나오는 칸입니다."
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.533" />
 
 </android.support.constraint.ConstraintLayout>

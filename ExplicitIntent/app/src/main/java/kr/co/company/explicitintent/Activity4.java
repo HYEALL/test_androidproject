@@ -3,8 +3,10 @@ package kr.co.company.explicitintent;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.view.View;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 public class Activity4 extends AppCompatActivity {
@@ -84,5 +86,21 @@ public class Activity4 extends AppCompatActivity {
                         }
                 }
 
+                ImageButton go_chat = (ImageButton)findViewById(R.id.chat);
+                go_chat.setOnClickListener(new View.OnClickListener() {
+                        public void onClick(View v) {
+                                Intent intent = new Intent(Activity4.this,
+                                        Activity5.class);
+                                startActivity(intent);
+                        }
+                });
+                ImageButton go_test = (ImageButton)findViewById(R.id.test);
+                go_test.setOnClickListener(new View.OnClickListener() {
+                        public void onClick(View v) {
+                                Intent intent = new Intent(Activity4.this,
+                                        Activity2.class);
+                                startActivity(intent);
+                        }
+                });
         }
 }
